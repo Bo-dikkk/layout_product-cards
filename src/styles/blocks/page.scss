@@ -1,9 +1,10 @@
 .page {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  color: #060b35;
+  font-family: $main-font-family;
+  font-weight: $main-font-weight;
+  color: $main-color;
 
   &__body {
     margin: 0;
   }
 }
+

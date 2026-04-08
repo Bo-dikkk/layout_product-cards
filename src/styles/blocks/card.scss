@@ -1,12 +1,12 @@
 .card {
   display: flex;
   flex-direction: column;
-  padding-inline: 16px;
+  padding-inline: $card-padding-sides;
   padding-top: 32px;
-  width: 200px;
-  background-color: #fff;
+  width: $card-width;
+  background-color: $white;
   box-sizing: border-box;
-  border: 1px solid rgba(243, 243, 243, 1);
+  border: 1px solid $border-color;
   border-radius: 5px;
   overflow: hidden;
 
@@ -33,7 +33,7 @@
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 0%;
-    color: #616070;
+    color: $second-color;
     padding-top: 4px;
     margin: 0;
   }
@@ -63,7 +63,7 @@
       font-size: 12px;
       line-height: 18px;
       letter-spacing: 0%;
-      color: #616070;
+      color: $second-color;
       align-self: center;
     }
 
@@ -88,19 +88,19 @@
     align-self: center;
     height: 40px;
     border-radius: 5px;
-    border-color: #00acdc;
+    border-color: $buy-button-color;
     border-style: solid;
     border-width: 1px;
-    background-color: #00acdc;
-    color: #fff;
+    background-color: $buy-button-color;
+    color: $white;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
 
     &:hover {
-      color: #00acdc;
-      border-color: #00acdc;
+      color: $buy-button-color;
+      border-color: $buy-button-color;
       border-style: solid;
       border-width: 1px;
       background-color: transparent;
